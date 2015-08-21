@@ -16,15 +16,13 @@
             android:orientation="vertical"
             android:background="@android:color/holo_orange_dark"
             android:layout_margin="20dp"
-            android:padding="30dp"
-
-            >
+            android:padding="30dp">
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="SAVE THEM FROM BEING KILLED ENTER ONLY 4 DIGITS NUMBER"
                 android:textStyle="bold|italic"
-                />
+                android:textColor="#ff0000"/>
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -35,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:text="Okay! Save Them"
                 android:layout_gravity="center"/>
-            </LinearLayout>
         </LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>
